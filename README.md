@@ -54,11 +54,11 @@ docker run -d --restart=unless-stopped \
   -v /root/rancher:/var/lib/rancher \
   --name rancher-server \
   rancher/rancher:latest \
-  --acme-domain rancher.commersive.dev
+  --acme-domain rancher.xxxx
 ```
 
 4. Access rancher at:
-https://rancher.commersive.dev
+https://rancher.xxx
 
 5. Set up an account with a STRONG password. The username is `admin`.
 
