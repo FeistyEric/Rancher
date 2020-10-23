@@ -42,7 +42,8 @@ In this case, we'll point `rancher.commersive.dev` to the IP address of the `ran
 2. Install docker
 ```bash
 apt-get update
-apt install -y docker.io
+
+apt install -y docker.io open-iscsi
 systemctl start docker
 ```
 
