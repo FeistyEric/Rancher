@@ -41,10 +41,11 @@ In this case, we'll point `rancher.commersive.dev` to the IP address of the `ran
 1. SSH to the server using root@rancher.commersive.dev and accept the fingerprint. You should access immediately as the keys have been set up.
 2. Install docker
 ```bash
-apt-get update
-
+apt update
+apt upgrade
 apt install -y docker.io open-iscsi
 systemctl start docker
+hostnamectl set-hostname workerx
 ```
 
 3. Install Rancher as an automatically restarting docker container.
