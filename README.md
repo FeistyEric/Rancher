@@ -63,3 +63,4 @@ https://rancher.xxx
 5. Set up an account with a STRONG password. The username is `admin`.
 
 6. Store the password in Keypass
+ 
